@@ -1,0 +1,54 @@
+#container
+{
+    MARGIN: 10px auto;
+    WIDTH: 780px;
+    POSITION: relative;
+    HEIGHT: 600px
+}
+#logo
+{
+    DISPLAY: block;
+    MARGIN: 5px auto;
+    POSITION: relative
+}
+#HRUseOnly
+{
+    BORDER-RIGHT: 1px solid;
+    PADDING-RIGHT: 10px;
+    BORDER-TOP: 1px solid;
+    PADDING-LEFT: 10px;
+    PADDING-BOTTOM: 10px;
+    MARGIN: 5px auto;
+    BORDER-LEFT: 1px solid;
+    WIDTH: 350px;
+    PADDING-TOP: 10px;
+    BORDER-BOTTOM: 1px solid;
+    POSITION: relative
+}
+H1
+{
+    TEXT-ALIGN: center
+}
+#theform
+{
+    BORDER-RIGHT: 1px solid;
+    PADDING-RIGHT: 5px;
+    BORDER-TOP: 1px solid;
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 5px;
+    BORDER-LEFT: 1px solid;
+    PADDING-TOP: 5px;
+    BORDER-BOTTOM: 1px solid
+}
+INPUT
+{
+    BACKGROUND: #e6ebf0
+}
+SELECT
+{
+    BACKGROUND: #e6ebf0
+}
+TEXTAREA
+{
+    BACKGROUND: #e6ebf0
+}

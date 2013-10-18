@@ -1,0 +1,108 @@
+BODY
+{
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Verdana
+}
+TABLE
+{
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Verdana
+}
+
+#Header
+{
+	background-color: #ffffff ;
+}
+
+#Toolbar A
+{
+	color: #ffffff ;
+	text-decoration: none ;
+}
+
+.TabClassOn
+{
+	background-color: #FFAF7A ;
+}
+
+.tooltip {
+	position: relative;
+	text-decoration: none ;
+}
+
+.tooltip span {
+	display: none;
+}
+
+.tooltip:hover {
+  background-color: #fdd ;
+  }
+/* The above hover change defeats the
+  IE/Win display changing bug */
+ 
+.tooltip:hover span {
+  padding: 10px ;
+  width: 200px ;
+  font-size: 10px ;
+  position: absolute;
+  top: 5px;
+  left: 60px;
+  display: block;
+  background: #fdd;
+  border: 1px solid red;
+  }
+  
+form.cmxform fieldset {
+  margin-bottom: 10px;
+}
+form.cmxform legend {
+  padding: 0 2px;
+  font-weight: bold;
+}
+form.cmxform label {
+  display: inline-block;
+  line-height: 1.8;
+  vertical-align: top;
+  width: 120px; /* Width of labels */
+}
+form.cmxform fieldset ol {
+  margin: 0;
+  padding: 0;
+}
+form.cmxform fieldset li {
+  list-style: none;
+  padding: 5px;
+  margin: 0;
+}
+
+.subTitle { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-weight: bold; color: #004990; text-decoration: none; }
+
+.subTitle2 { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #000000; text-decoration: none; }
+
+.small { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-style: normal; color: #000000; text-decoration: none; }
+
+.nav { color: #004990; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; text-align: center; }
+/*
+a.nav:link { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; color: #004990; text-decoration: none; }
+
+a.nav:visited { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; color: #004990; text-decoration: none; }
+
+a.nav:active { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; color: #004990; text-decoration: none; }
+
+a.nav:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; font-weight: normal; color: #FFFFFF; text-decoration: none; background: #004990; }
+
+a:link { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; font-weight: normal; color: #004990; text-decoration: underline; }
+
+a:visited { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; font-weight: normal; color: #4b7faf; text-decoration: underline; }
+
+a:active { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; font-weight: normal; color: #004990; text-decoration: none; }
+
+a:hover { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 13px; font-weight: normal; color: #FFFFFF; text-decoration: none; background: #004990; }
+*/
+.halloween  {
+  color: #FF804F; 
+  }
+
+.christmas {
+  color: #448F3A; 
+  }

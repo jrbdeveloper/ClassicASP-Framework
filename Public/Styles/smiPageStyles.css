@@ -1,0 +1,620 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	background: #eeebe3 url(../images/sc_bg.gif);
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	margin: 15px 0px 20px 0px;
+	width: 875px;
+	margin-left:20px;
+	}
+
+#allContent {
+	width: 875px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#f8f4ea;
+	}
+	
+p {
+	padding: 0;
+	margin: 10px 0px; 
+	}
+
+hr {
+	border: 0;
+	color: #B4AA91;
+	background-color: #B4AA91;
+	height: 1px;
+	}
+	
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #0073ae;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 0px;
+	margin-bottom: 0px;
+	border-bottom: 1px solid #B4AA91;
+	}
+
+h2 {
+	font-size: 13px;
+	font-weight: bold;
+	padding: 0;
+	margin: 10px 0px;
+	}
+	
+h3 {
+	font-size: 10px;
+	color: #053366;
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px;
+	width:189px;
+	}
+	
+h4 {
+	font-size: 13px;
+	color: #000000;
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px;
+	}
+
+#header {
+	background-color:#f8f4ea;
+	width: 873px;
+	border-top: 1px solid white;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	margin:0px;
+	padding:0px;
+	}
+	
+#nav {
+	width: 875px;
+	height: 31px;
+	background-image: url(../images/nav_bg.jpg);
+	background-repeat: no-repeat;
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	padding: 0px;
+	margin: 0px;
+	}
+
+* html #nav {
+	overflow:hidden;
+} 
+	
+#imageWrapper {
+	background-color: #f8f4ea;
+	float: right;
+	clear: left;
+	width: 193px;
+	border: 0px;
+	padding: 0px;
+	margin: 5px 0px 5px 10px;	
+	}
+		
+#headlinesWrapper {
+	background-color: #ffffff;
+	float: right;
+	position: relative;
+	width: 230px;
+	height: 350px;
+	border: 1px solid #0073ae;
+	padding: 5px;
+	margin: 20px 0px 20px 20px;
+	}
+
+#headlines {
+	width: 230px;
+	height: 315px;
+	overflow: auto;
+	margin: 5px 0px 5px 0px;
+	}
+
+#headlines ul {
+	margin: 0;
+	padding: 5px;
+	}
+
+#headlines li { 
+	font-size: 10px;
+	text-align: middle left;	 
+	display: block; 
+	padding-top: 0px; 
+	margin-bottom: 5px;
+	list-style-type: none;
+	}
+
+#headlines li a:link {
+	color: #285480;
+	text-decoration: none; 
+	}
+
+#headlines li a:visited {
+	color: #a69d87;
+	text-decoration: none;
+	}
+
+#headlines li a:hover {
+	color: #726a58;
+	text-decoration: underline; 
+	}	
+	
+#sidebar {
+	background:url("../images/sidebar_bg.gif" width="229");
+	position: absolute;
+	width: 189px;
+	padding: 10px 20px 20px 20px;
+	left: 21px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	font-size:11px;
+	color: #49453a;
+	line-height:1.5em;
+	}
+		
+#sidebarLogin {
+	background-color: #b4aa91;
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	font-size:11px;
+	color: #49453a;
+	position: absolute;
+	width: 229px;
+	height:350px;
+	left: 21px;		
+	}
+	
+#sidebar ul {
+	margin: 0;
+	padding: 0;
+	width: 189px;
+	}
+
+#sidebar ul ul {
+	margin: 0px 10px;
+	padding: 0;
+	}
+
+#sidebar li { 
+	font-size: 11px;
+	text-align: middle left;	 
+	display: block; 
+	padding-top: 1px; 
+	margin-bottom: 1px;
+	list-style-type: none;
+	}
+
+#sidebar li a:link {
+	color: #f4f1eb;
+	text-decoration: none; 
+	}
+
+#sidebar li a:visited {
+	color: #49453a;
+	text-decoration: none;
+	}
+
+#sidebar li a:hover {
+	color: #053366;
+	text-decoration: underline; 
+	}
+	
+#content {
+	background-color: #f8f4ea;
+	margin-left: 229px;
+    padding: 10px 20px 20px 20px;
+	font-size: 11px;
+	color: #000000; 
+	line-height: 1.5em;
+	}
+
+#content li{
+	list-style-type:none;
+	}
+	
+#content li {
+	list-style-type:none;
+	}
+	
+#contentLogin {
+	background-color:#f8f4ea;
+	height: 320px;
+	margin-left: 230px;
+    padding: 10px 20px 20px 20px;
+	font-size: 11px;
+	color: #000000; 
+	line-height: 1.5em;
+	}	
+	
+#customContentWrapper { /* Added This to associate with HTML */
+	background-color:#b4aa91;
+	border-left:1px solid white;
+	}
+
+#secondaryContentWrapper { /* Added This to associate with HTML */
+    background:#b4aa91;
+	float:left;
+	width:229px;	
+    }
+
+#secondaryContent {
+    vertical-align:top;
+	width:229px;
+    font-size:11px;
+    color:#49453a;
+    background:url(../images/sidebar_bg.gif);
+    margin:0px;
+    font-size:0; /* remove default line-height of inline-element for IE6*/
+    }
+
+#secondaryContent p {
+	background-color:#b4aa91;
+	width:229px;
+	padding:0px;
+	margin:30px;
+	font-size:10px;
+	list-style-type:none; 
+	line-height:1.2em;
+	}
+	
+#secondaryContent a:link {
+	color:#157fb4;
+	text-decoration:none; 
+	}
+
+#secondaryContent a:visited {
+	color:#6d624e;
+	text-decoration:none;
+	}
+
+#secondaryContent a:hover {
+	color:#07427f;
+	text-decoration:underline; 
+	}	
+		
+#mainContentWrapper { /* Added This to associate with HTML */
+    background-color:#f8f4ea;
+	width:644px;
+    float:right;
+    clear:right; /* for IE6 */
+    }
+	
+#mainContentLogin {
+    background:#f8f4ea;
+	width: 604px;
+	height:320px;
+    padding: 10px 20px 20px 20px;
+	font-size: 11px;
+	color:#000000; 
+	line-height: 1.8em;
+    }
+
+#mainContent  {
+    background-color:#f8f4ea;
+	width: 604px;
+    padding: 10px 20px 20px 20px;
+	font-size: 11px;
+	color: #000000; 
+	line-height: 1.8em;
+    }	
+	
+#mainContent a:link {
+	color:#157fb4;
+	text-decoration:none; 
+	}
+
+#mainContent a:visited {
+	color:#6d624e;
+	text-decoration:none;
+	}
+
+#mainContent a:hover {
+	color:#07427f;
+	text-decoration:underline; 
+	}		
+	
+.rsaquo {
+	color:#053366;
+	font-weight:bold;
+	font-size:11px;
+	}
+		
+#calloutBar {
+	background-image: url(../images/brn_line_bg.gif);
+	background-color: #6d624d;
+	width: 873px;
+	height: 38px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #0073ae;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	border-right: 1px solid white;
+	border-top: 1px solid white;
+	border-bottom: 2px solid #f8f4ea;
+	clear: both;
+	}
+
+#subnav {
+	background-color: #68A6B9;
+	width: 873px;
+	height: 20px;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	border-top: 1px solid white;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;
+	clear: both;
+	}
+
+#footer {
+	width: 875px;
+	height: 34px;	
+	font-size: 10px;
+	color: #F3EDE1;
+	text-align: center;
+	margin-top: 1px;
+	background: #cbbda2;
+	clear: both;
+		}
+
+#footer a:link {
+	color: #49453a;
+	text-decoration: none; 
+	}
+
+#footer a:visited {
+	color: #F3EDE1;
+	text-decoration: none;
+	}
+
+#footer a:hover {
+	color: #053366;
+	text-decoration: underline;
+	}
+	
+.bullet {
+	font-size: 11px;
+	font-weight: bold;
+	color: #053366; 
+	}
+	
+.text {
+	font-size: 11px;
+	color: #000000; 
+	line-height: 1.5em;
+	}
+	
+.text a:link {
+	color: #0073ae;
+	text-decoration: none; 
+	}
+
+.text a:visited {
+	color: #0073ae;
+	text-decoration: none;
+	}
+
+.text a:hover {
+	color: #dd9023;
+	text-decoration: underline; 
+	}
+		
+.date {
+	font-style: italic;
+	font-size: 9px;
+	color: #333333;
+	text-align: left;
+	}
+
+/*	
+#vendorForm input.btn {
+    color:#ffffff;
+    background-color:#6d624d;
+    font-size:12px;
+	width:100px;
+    height:20px;
+    vertical-align:middle;
+    }
+	
+#vendorForm p, #frmLogin p, #aspnetForm p {
+	clear: both;
+	margin:10px 0px;
+	padding:0px;
+	}
+
+select.Login {
+	border:1px solid #6d624d;
+	}
+
+#vendorForm fieldset, #frmLogin fieldset, #aspnetForm  fieldset {
+	width: 484px;
+	border: 1px solid #ccc;
+	margin-left:40px;
+	padding:10px;
+	}
+
+#vendorForm legend, #frmLogin legend, #aspnetForm  legend {
+	font-weight: bold;
+	color:#6d624d;
+	font-size:18px;
+	}
+
+.requiredField {
+	font-size:10px;
+	color:#000000;
+	font-style:italic;
+	font-weight:bold;
+	margin:0px;
+	}
+	
+#vendorForm label, #frmLogin label, #aspnetForm  label {
+	width: 150px;
+	float: left;
+	}
+
+#vendorForm input[type=text], #frmLogin input[type=text], #frmLogin input[type=password], #aspnetForm input[type=text], #aspnetForm input[type=password] {
+	width: 200px;
+	color:#000000;
+    background-color:#ffffff;
+    font-size:13px;
+    vertical-align:middle;
+	border:1px solid #6d624d; 
+}
+
+#vendorForm select, #aspnetForm select {
+	width: 200px;
+	color:#000000;
+    background-color:#ffffff;
+    font-size:13px;
+    vertical-align:middle;
+	border:1px solid #6d624d; 
+	}
+
+#vendorForm textarea, #aspnetForm textarea {
+	width: 200px;
+	height: 100px;
+	}
+
+#vendorForm input[type=radio], #vendorForm input[type=checkbox], #aspnetForm input[type=radio], #aspnetForm input[type=checkbox] {
+	width:12px;
+	margin:0;
+	padding:0;
+	display:inline;
+	text-align: left;
+	color:#000000;
+	background-color:#f8f4ea;
+    font-size:13px;
+    vertical-align:top;
+	border:0px;
+	}*/
+
+	
+	
+	
+#vendorForm input.btn, #aspnetForm input.btn, #frmLogin input.btn {
+    color:#ffffff;
+    background-color:#6d624d;
+    font-size:12px;
+	width:100px;
+    height:20px;
+    vertical-align:middle;
+    }
+
+#aspnetForm input.btn2 {
+    color:#ffffff;
+    background-color:#6d624d;
+    font-size:12px;
+	width:180px;
+    height:20px;
+    vertical-align:middle;
+    }
+	
+#vendorForm p, #frmLogin p, #aspnetForm p {
+	clear: both;
+	margin:10px 0px;
+	padding:0px;
+	}
+
+select.Login {
+	border:1px solid #6d624d;
+	}
+
+#vendorForm fieldset, #frmLogin fieldset, #aspnetForm fieldset {
+	width: 484px;
+	border: 1px solid #ccc;
+	margin-left:40px;
+	padding:10px;
+	}
+
+#vendorForm legend, #frmLogin legend, #aspnetForm legend {
+	font-weight: bold;
+	color:#6d624d;
+	font-size:18px;
+	}
+
+.requiredField {
+	font-size:10px;
+	color:#000000;
+	font-style:italic;
+	font-weight:bold;
+	margin:0px;
+	}
+	
+#vendorForm label, #frmLogin label {
+	width: 200px;
+	float: left;
+	}
+
+#aspnetForm  label {
+	width: 200px;
+	}
+	
+#vendorForm input[type=text], #frmLogin input[type=text], #frmLogin input[type=password], #aspnetForm input, #aspnetForm textarea {
+	width: 200px;
+	color:#000000;
+    background-color:#ffffff;
+    font-size:13px;
+    vertical-align:middle;
+	border:1px solid #6d624d; 
+}
+
+#vendorForm textarea, #aspnetForm textarea {
+	width: 200px;
+	height: 100px;
+	}
+
+#vendorForm input[type=radio], #vendorForm input[type=checkbox], #aspnetForm input[type=radio], #aspnetForm input[type=checkbox] {
+	width:12px;
+	margin:0;
+	padding:0;
+	display:inline;
+	text-align: left;
+	color:#000000;
+	background-color:#f8f4ea;
+    font-size:13px;
+    vertical-align:top;
+	border:0px;
+	}
+	
+#vendorForm select, #aspnetForm select {
+	width: 200px;
+	color:#000000;
+    background-color:#ffffff;
+    font-size:13px;
+    vertical-align:middle;
+	border:1px solid #6d624d; 
+	}	
+
+
+	
+.resultsHdr {
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	color: #ffffff;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.results {
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	color: #000000;
+	font-size: 10px;
+	line-height:2em;
+}
+
+.ResultsListHeader th {
+	color: #8597A9;
+	font-size: 13px;
+	font-weight: bold;
+	padding-top:20px;
+	text-align: left;
+	text-indent: 10px;
+}

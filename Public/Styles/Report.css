@@ -1,0 +1,45 @@
+.ResultsListHeader A
+{
+	color: #8597A9;
+}
+.ReportHeader
+{
+	background-color: #E9EBED; 
+	border: 1px solid #8597a9 ;
+}
+
+.ReportHeaderTop 
+{
+	background-color: #8597A9 ;
+	color: #ffffff ;
+}
+
+.ReportSubjectRow
+{
+	font-weight: bold ;
+}
+
+.DetailAnalysisReport
+{
+	page-break-after: always ;
+}
+
+.DetailAnalysisReport td
+{
+	font-size: 10px ;
+}
+
+.DetailAnalysisReportSubHead
+{
+	background-color: #E9EBED; 
+}
+
+.DetailAnalysisReportSubHead td
+{
+	font-size: 12px ;
+}
+
+.AmenitiesUtilities
+{
+	border: solid 1px #8597a9 ;
+}

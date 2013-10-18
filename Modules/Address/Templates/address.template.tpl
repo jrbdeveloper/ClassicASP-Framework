@@ -1,0 +1,18 @@
+<table>
+	<tr>
+		<td><b>Street</b></td>
+		<td>{street}</td>
+	</tr>
+	<tr>
+		<td><b>City</b></td>
+		<td>{city}</td>
+	</tr>
+	<tr>
+		<td><b>State</b></td>
+		<td>{state}</td>
+	</tr>
+	<tr>
+		<td><b>Zip</b></td>
+		<td>{zip}</td>
+	</tr>
+</table>

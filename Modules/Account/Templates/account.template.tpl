@@ -1,0 +1,10 @@
+<table>
+	<tr>
+		<td><b>Username</b></td>
+		<td>{username}</td>
+	</tr>
+	<tr>
+		<td><b>Password</b></td>
+		<td>{password}</td>
+	</tr>
+</table>
